@@ -57,7 +57,7 @@ input:focus {
 
 body {
   font-family: "IBM Plex Sans";
-  background: linear-gradient(to right, #025951 , #0B0D0C);
+  background: linear-gradient(to left, #113859 , #275D8C);
 }
 
 html {
@@ -79,7 +79,7 @@ html {
 }
 
 header {
-  background: #025951;
+  background: #113859;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   z-index: 999;
@@ -242,7 +242,7 @@ header .grid-layout nav .nav-list li a:hover {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: #025951;
+    background-color: #113859;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -328,7 +328,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-home .grid-layout #home #home-container-text a {
-  background: linear-gradient(225deg, #04D99D 0%, #025951 100%);
+  background: linear-gradient(225deg, #73A9D9 0%, #113859 100%);
   color: #fafafa;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -343,7 +343,6 @@ header .grid-layout nav .nav-list li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #04D99D;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
   margin-top: 30px;
@@ -355,7 +354,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-home .grid-layout #home #home-container-text a:hover {
   padding: 15px 45px;
   max-width: 280px;
-  background: linear-gradient(225deg, #04D99D 0%, #025951 100%);
+  background: linear-gradient(225deg, #73A9D9 0%, #113859 100%);
 }
 
 #s-home .grid-layout #home #home-container-photo {
@@ -469,7 +468,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-about {
   padding: 96px 48px;
-  background-color: #025951;
+  background-color: #113859;
 }
 
 @media screen and (max-width: 992px) {
@@ -536,7 +535,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-about .grid-layout #about-photo .about-figure {
   position: absolute;
-  background-color: #0E403B;
+  background-color: #275d8c8c;
   border-radius: 4px;
   width: 72px;
   height: 72px;
@@ -631,7 +630,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout #about-text h2 span {
-  color: #04D99D;
+  color: #9BDAF2;
   font-size: 64px;
 }
 
@@ -661,7 +660,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout h2 span {
-  color: #04D99D;
+  color: #9BDAF2;
   font-size: 64px;
 }
 
@@ -697,7 +696,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects > article:hover {
-  border: 1px solid #04D99D;
+  border: 1px solid #9BDAF2;
 }
 
 @media screen and (max-width: 1200px) {
@@ -781,7 +780,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout h2 span {
-  color: #04D99D;
+  color: #9BDAF2;
   font-size: 64px;
 }
 
@@ -811,7 +810,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services article:hover {
-  border: 1px solid #04D99D;
+  border: 1px solid #9BDAF2;
 }
 
 @media screen and (max-width: 1200px) {
@@ -852,7 +851,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-skills {
   padding: 96px 48px;
-  background-color: #025951;
+  background-color: #113859;
   padding-bottom: 32px;
 }
 
@@ -902,7 +901,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-text h2 span {
-  color: #04D99D;
+  color: #9BDAF2;
   font-size: 64px;
 }
 
@@ -962,7 +961,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover {
-  border: 1px solid #04D99D;
+  border: 1px solid #9BDAF2;
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name, #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name-high, #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name-low {
@@ -1088,7 +1087,7 @@ footer .grid-layout div img {
   opacity: 1;
   -webkit-animation: blink 1s infinite;
           animation: blink 1s infinite;
-  color: #04D99D;
+  color: #9BDAF2;
 }
 
 @-webkit-keyframes blink {
